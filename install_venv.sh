@@ -10,5 +10,6 @@ source flaskenv/bin/activate
 pip install flask
 pip install requests
 pip install tweepy
-python server.py
 pip freeze > requirements.txt
+python server.py
+
