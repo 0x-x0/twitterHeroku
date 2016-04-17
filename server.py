@@ -1,11 +1,12 @@
 #!usr/bin/python
 from flask import Flask, request, render_template
-import requests
 import json
 import tweepy
 import time
 import datetime as DT
 import calendar
+import requests.packages.urllib3
+requests.packages.urllib3.disable_warnings()
 
 consumer_key = "cFXaV6fAhsodXyvqSYNLVUPbE"
 consumer_secret = "4vKaMFtIV2OI5FBiaE5qyHsukSg4k7khSMUg5zQO8IAlWZtF0C"
