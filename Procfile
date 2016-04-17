@@ -1,1 +1,1 @@
-python server.py
+web: gunicorn flask-app:app --log-file -
